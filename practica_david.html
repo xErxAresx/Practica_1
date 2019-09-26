@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Numero Mayor de un arreglo</title>
+
+    <script type="text/javascript">
+        var num = 7;
+        var miArray = new Array(num);
+        for(var y=0;y<num;y++){
+            var nums = prompt("nums");
+            miArray[y]=nums;
+            var max = Math.max.apply(null,miArray);
+            var min = Math.min.apply(null,miArray);
+        }
+
+        document.write(max+"<br>"+min);
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
